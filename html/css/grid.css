@@ -1,0 +1,235 @@
+/**
+    Primary styles
+**/
+
+body{
+    background-color: #d4d6d4;
+    color:#373737;
+    text-align: left;
+    font-size: 62.5%;
+    font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+    line-height: 1.2em;
+}
+
+/*
+    GRID
+*/
+
+/* --- header --- */
+.header{
+    position:relative;
+    overflow:hidden;
+    min-width: 964px;
+    width: 100%;
+    border-top:1px solid #b9b9b9;
+    border-bottom:1px solid #b9b9b9;
+    background-color: #0c66ad;
+}
+
+.header:before{
+    position:absolute;
+    top: 0;
+    right: 50%;
+    left: 0;
+    display:block;
+    overflow:hidden;
+    height: 138px;
+    background: url('../images/sprite.png') repeat-x 0 -30px;
+    content:'.';
+    text-indent:-9999px;
+}
+
+.header:after{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 50%;
+    display:block;
+    overflow:hidden;
+    height: 138px;
+    background: url('../images/sprite.png') repeat-x 0 -170px;
+    content:'.';
+    text-indent:-9999px;
+}
+
+.header__body{
+    position:relative;
+    z-index: 33;
+    margin: 0 auto;
+    width: 964px;
+    height: 138px;
+}
+
+.header__body:before{
+    position:absolute;
+    top:0;
+    left:-193px;
+    overflow:hidden;
+    width: 1350px;
+    height: 138px;
+    background: url('../images/header_bg.jpg') no-repeat 0 0;
+    content:'.';
+    text-indent:-9999px;
+}
+
+.header__body-inner{
+    position:relative;
+    padding: 0 10px;
+}
+
+/* --- main --- */
+.main{
+    margin:0 auto;
+    width: 964px;
+    background-color:#fff;
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.main__inner{
+    position:relative;
+    padding: 12px 0 0 0;
+    padding-bottom: 1px;
+}
+
+.main__inner-design-shadow{
+    position:absolute;
+    top: 0;
+    left: 50%;
+    display:block;
+    margin-left: -482px;
+    width: 964px;
+    height: 8px;
+    background: url('../images/header_sh_bottom.png') no-repeat 0 0;
+}
+
+/* ---sidebar--- */
+.sidebar{
+    position:relative;
+    float:left;
+    margin-right: 40px;
+    background-color:#f0f0f0;
+}
+
+.sidebar_mod{
+    float:none;
+    margin: 0;
+    padding: 20px 0 20px 25px;
+    background: linear-gradient(left, #dce8f9, #f1da36);
+}
+
+.sidebar_mod2{
+    float:right;
+    margin:0;
+    padding: 25px 0;
+    background: linear-gradient(left, #dce8f9, #f1da36);
+}
+
+/* ---main-content--- */
+.main-content{
+    float:right;
+}
+
+
+/* --- footer --- */
+.footer{
+    position:relative;
+    overflow:hidden;
+    min-width: 964px;
+    min-height: 179px;
+    width: 100%;
+    border-top:1px solid #b9b9b9;
+}
+
+.footer:before{
+    position:absolute;
+    top:0;
+    right: 50%;
+    left:0;
+    overflow:hidden;
+    height: 179px;
+    background: url('../images/sprite.png') repeat-x 0 -309px;
+    content: '.';
+    text-indent:-9999px;
+}
+
+.footer:after{
+    position:absolute;
+    right: 0;
+    bottom:0;
+    left:50%;
+    overflow:hidden;
+    height: 179px;
+    background: url('../images/sprite.png') repeat-x 0 -491px;
+    content: '.';
+    text-indent:-9999px;
+}
+
+.footer__body{
+   position:relative;
+   z-index: 33;
+   margin:0 auto;
+   width: 964px;
+}
+
+.footer__body:before{
+    position:absolute;
+    top:0;
+    left: -193px;
+    overflow:hidden;
+    width: 1350px;
+    height: 179px;
+    background: url('../images/footer_bg.jpg') no-repeat 0 0;
+    content: '.';
+    text-indent:-9999px;
+}
+
+.footer__body-inner{
+    position:relative;
+    z-index: 44;
+    height: 179px;
+}
+
+/*
+    Modification
+*/
+
+/* --- main-wrap_table --- */
+
+.main-wrap_table{
+    display:table;
+}
+
+.main-wrap_table .sidebar{
+    display:table-cell;
+    float:none;
+    margin-right:0;
+    vertical-align:top;
+}
+
+.main-wrap_table .main-content{
+    display: table-cell;
+    padding-left: 20px;
+}
+
+/* ---grid-2--- */
+.grid-2{
+    margin:0 0 50px 0;
+}
+
+.grid-2 .left{
+    float:left;
+}
+
+.grid-2 .right{
+    float:right;
+}
+
+.grid-2 .right_mod{
+    margin: 44px 0 13px 0;
+    padding-left: 32px;
+    width: 267px;
+    border-top: 1px solid #c1c1c1;
+}

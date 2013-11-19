@@ -1,0 +1,12 @@
+.select-custom select{
+    left:-1px;
+    filter: alpha(opacity=0);
+}
+
+.types-adv_free .types-adv__content{
+    filter: alpha(opacity=60);
+}
+
+.fancybox-overlay {
+    background: url('../../images/popup-overlay.png') 0 0 repeat;
+}

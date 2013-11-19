@@ -1,0 +1,624 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Кабинет пользователя объявления список | 05</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/grid.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/forms.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/local.css" media="all">
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/browsers/ie8.css" media="screen, projection" />
+        <script type="text/javascript" src="js/iefix.js"></script>
+    <![endif]-->
+</head>
+<body class="no-js">
+    
+    <div class="header">
+        <div class="header__body">
+            <div class="header__body-inner clearfix">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="Все Дома">
+                    </a>
+                </div>
+                
+                <div class="header__controls">
+                    <div class="user-login">
+                        <div class="user-login__line">
+                            <label for="email">E-mail:</label>
+                            <div class="input"><input type="text" id="email"></div>
+                        </div>
+                        
+                        <div class="user-login__line">
+                            <label for="pass">Пароль:</label>
+                            <div class="input"><input type="password" id="pass"></div>
+                        </div>
+                        
+                        <div class="user-login__line user-login__line_check">
+                            <input type="checkbox" name="" id="safeme">
+                            <label for="safeme">Запомнить меня</label>
+                        </div>
+                    </div><!--end user-login-->
+                    
+                    <nav class="entry-socialnet">
+                        <a href="#">fb</a>
+                        <a href="#">tw</a>
+                        <a href="#">vk</a>
+                        <a href="#">odn</a>
+                        <a href="#">google</a>
+                        
+                        <p>Вход через соцсети</p>
+                    </nav><!-- end entry-socialnet-->
+                    
+                    <div class="clearfix"></div>
+                    
+                    <nav class="header-nav">
+                        <a href="#popup" class="popup-login">Вход</a>
+                        <a class="header-nav_min" href="#">Забыли пароль?</a>
+                        <a class="popup-registration" href="#registration">Регистрация</a>
+                    </nav>
+                    
+                </div><!-- end header__controls-->
+            </div>
+            <div class="header__body-design-shadow"></div>
+        </div>
+    </div><!-- end header -->
+    
+    <div class="main">
+        <div class="main__inner">
+            <i class="main__inner-design-shadow"></i>
+            <div class="main-menu">
+                <nav class="main-menu__list clearfix">
+                    <span><a href="#">Недвижимость</a></span>
+                    <span class="active"><a href="#">Пользователи</a></span>
+                    <span><a href="#">Новости</a></span>
+                    <span><a href="#">О проекте</a></span>
+                    <span><a href="#">Контакты</a></span>
+                </nav>
+            </div><!-- main-menu end -->
+            
+            <section class="path">
+                <a href="#">Пользователи</a>
+                <span class="path__separation">></span>
+                <a href="#">Кабинет</a>
+                <span class="path__separation">></span>
+                <span class="path__text">Сообщения</span>
+            </section><!-- path end -->
+            
+            <div class="main-wrap main-wrap_table clearfix">
+            
+                <aside class="sidebar width193">
+                    <nav class="side-menu">
+                        <a href="#">Профиль</a>
+                        <a class="active" href="#">Сообщения (<span>4</span>)</a>
+                        <a href="#">Объявления (<span>4</span>)</a>
+                        <a href="#">Статистика</a>
+                        <a href="#">Настройки</a>
+                    </nav><!-- side-menu end -->
+
+                </aside><!-- sidebar end -->
+            
+                <div class="main-content width728px">
+                    <section class="list-message">
+                        <header class="list-message__header clearfix">
+                            <div class="list-message__header-top clearfix">
+                                <div class="list-message__header-left">
+                                    <div class="title">Сообщения: <p>Новых сообщений 4</p></div>
+                                </div>
+                                
+                                <div class="list-message__header-right">
+                                    <a href="#popup-message" class="btn btn__add-block btn__add-block_mod fl-right width230 popup-message">
+                                        <span>Написать сообщение</span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="list-message__sort clearfix">
+                                <div class="left claerfix">
+                                    <div class="label">Тип</div>
+                                    
+                                    <div class="item">
+                                        <div class="select-custom select-custom_inset width183">
+                                            <select>
+                                                <option value="Непрочитанные">Непрочитанные</option>
+                                                <option value="Непрочитанные">Непрочитанные</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="right clearfix">
+                                    <div class="item">
+                                        <button class="btn btn_controls fl-right width230">
+                                            <span>Удалить сообщения (1)</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </header><!-- list-advertisment__header end -->
+                        
+                        <div class="list-advertisment__main list-advertisment__main_message clearfix">
+                        
+                            <div class="item clearfix">
+                                <div class="item-controls">
+                                    <input type="checkbox" />
+                                </div>
+                                
+                                <div class="item-desc">
+                                    <div class="left">
+                                        <div class="avatar avatar_off">
+                                            <div class="avatar__img">
+                                                <img src="images/no-avatar_67.jpg" alt="title" />
+                                            </div>
+                                            
+                                            <div class="avatar__status">offline</div>
+                                        </div>
+                                        <div class="local-article">
+                                            <h3><a href="#">Задериценувыще <br />
+                                                Владислав Сильмаррионович</a></h3>
+                                            <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской...</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="right">
+                                        <div class="rating rating_readonly">
+                                            <input type="hidden" name="val" value="2.5">
+                                            <input type="hidden" name="vote-id" value="3">
+                                            <input type="hidden" name="cat_id" value="2">
+                                        </div>
+                                        
+                                        <div class="condition">Риелтор</div>
+                                        
+                                        <div class="date">08.10.2013</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="item clearfix">
+                                <div class="item-controls">
+                                    <input type="checkbox" />
+                                </div>
+                                
+                                <div class="item-desc">
+                                    <div class="left">
+                                        <div class="avatar avatar_off">
+                                            <div class="avatar__img">
+                                                <img src="images/no-avatar_67.jpg" alt="title" />
+                                            </div>
+                                            
+                                            <div class="avatar__status">offline</div>
+                                        </div>
+                                        <div class="local-article">
+                                            <h3><a href="#">PG Real Estate</a></h3>
+                                            <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской...</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="right">
+                                        <div class="icon-vip"></div>
+                                        
+                                        <div class="rating rating_readonly">
+                                            <input type="hidden" name="val" value="2.5">
+                                            <input type="hidden" name="vote-id" value="3">
+                                            <input type="hidden" name="cat_id" value="2">
+                                        </div>
+                                        
+                                        <div class="condition">Риелтор</div>
+                                        
+                                        <div class="date">08.10.2013</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="item clearfix">
+                                <div class="item-controls">
+                                    <input type="checkbox" />
+                                </div>
+                                
+                                <div class="item-desc">
+                                    <div class="left">
+                                        <div class="avatar">
+                                            <div class="avatar__img"></div>
+                                            
+                                            <div class="avatar__status">online</div>
+                                        </div>
+                                        <div class="local-article">
+                                            <h3><a href="#">Задериценувыще <br />
+                                                Владислав Сильмаррионович</a></h3>
+                                            <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской...</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="right">
+                                        <div class="icon-vip"></div>
+                                        
+                                        <div class="rating rating_readonly">
+                                            <input type="hidden" name="val" value="2.5">
+                                            <input type="hidden" name="vote-id" value="3">
+                                            <input type="hidden" name="cat_id" value="2">
+                                        </div>
+                                        
+                                        <div class="condition">Риелтор</div>
+                                        
+                                        <div class="date">08.10.2013</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="item clearfix">
+                                <div class="item-controls">
+                                    <input type="checkbox" />
+                                </div>
+                                
+                                <div class="item-desc">
+                                    <div class="left">
+                                        <div class="avatar">
+                                            <div class="avatar__img">
+                                            </div>
+                                            
+                                            <div class="avatar__status">online</div>
+                                        </div>
+                                        <div class="local-article">
+                                            <h3><a href="#">Задериценувыще <br />
+                                                Владислав Сильмаррионович</a></h3>
+                                            <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской...</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="right">
+                                        <div class="icon-vip"></div>
+                                        
+                                        <div class="rating rating_readonly">
+                                            <input type="hidden" name="val" value="2.5">
+                                            <input type="hidden" name="vote-id" value="3">
+                                            <input type="hidden" name="cat_id" value="2">
+                                        </div>
+                                        
+                                        <div class="condition">Риелтор</div>
+                                        
+                                        <div class="date">08.10.2013</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- list-advertisment__main end -->
+   
+                    </section><!-- list-advertisment end -->
+                </div><!-- main-content end -->
+            
+            </div>
+        </div>
+    </div><!-- main end -->
+    
+    <footer class="footer">
+        <div class="footer__body">
+            <div class="footer__body-inner">
+                <div class="fmenu">
+                    <nav class="fmenu-list clearfix">
+                        <section class="fmenu-list__item">
+                            <h5 class="title">Недвижимость:</h5>
+                                <ul class="fmenu-sub">
+                                	<li><a href="#">снять посуточно</a></li>
+                                	<li class="active"><a href="#">снять длительно</a></li>
+                                	<li><a href="#">купить</a></li>
+                                	<li><a href="#">сдать</a></li>
+                                	<li><a href="#">продать</a></li>
+                                </ul>
+                        </section>
+                        <section class="fmenu-list__item">
+                            <h5 class="title">Пользователи:</h5>
+                                <ul class="fmenu-sub">
+                                	<li><a href="#">частные риелторы</a></li>
+                                	<li><a href="#">агенства недвижимости</a></li>
+                                	<li><a href="#">владельцы</a></li>
+                                	<li class="active"><a href="#">арендаторы</a></li>
+                                	<li><a href="#">покупатели</a></li>
+                                </ul>
+                        </section>
+                        <section class="fmenu-list__item">
+                            <h5 class="title">Информация:</h5>
+                                <ul class="fmenu-sub">
+                                	<li><a href="#">раз</a></li>
+                                	<li><a href="#">два</a></li>
+                                	<li><a href="#">раз два</a></li>
+                                	<li class="active"><a href="#">три</a></li>
+                                	<li><a href="#">агенства недвижимости</a></li>
+                                </ul>
+                        </section>
+                        <section class="fmenu-list__item">
+                            <h5 class="title">Контакты:</h5>
+                                <ul class="fcontacts">
+                                	<li>тел. (063) 89 25 486</li>
+                                	<li>email: <a href="mailto:info@vsevdoma.com.ua">info@vsevdoma.com.ua</a></li>
+                                	<li>skype: ipvinner</li>
+                                </ul>
+                        </section>
+                    </nav>
+                </div>
+                
+                <div class="fcopyright">&#34;ВСЕ ДОМА&#34; &copy;  2013&nbsp;&nbsp;&nbsp;&nbsp;Все права защищены.</div>
+            </div>
+        </div>
+    </footer><!-- footer end -->
+    
+    <div class="popup width475" id="popup">
+        <div class="popup__inner">
+            <header class="popup-header">
+                <div class="title">Вход</div>
+            </header>
+            
+            <div class="popup-main">
+                <div class="title">Войти на вседома.ua</div>
+                <form class="popup-login__form" action="action">
+                    <div class="line clearfix">
+                        <label for="pemail">E-mail</label>
+                        <input class="text width271" type="text" id="pemail" />
+                    </div>
+                    
+                    <div class="line clearfix">
+                        <label for="ppass">Пароль</label>
+                        <input class="text width271" type="password" id="ppass" />
+                    </div>
+                    
+                     <div class="line line_mod clearfix">
+                        <input type="checkbox" id="ch1" />
+                        <label class="checkbox-label" for="ch1">Запомнить меня</label>
+                    </div>
+                    
+                    <div class="line clearfix">
+                        <div class="line-item">
+                            <button class="btn width92 margin-l128">
+                                <span>Войти</span>
+                            </button>
+                        </div>
+                        
+                        <div class="line-item fl-right">
+                            <div class="forget-pass"><a href="#">Забыли пароль?</a></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+            <footer class="popup-footer clearfix">
+                <div class="popup-footer__label ta-center">или</div>
+                <div class="popup-footer__lead ta-center">
+                    <a href="#">Забыли пароль</a>
+                </div>
+            </footer>
+        </div>
+    </div><!-- popup end -->
+    
+    <div class="popup width680" id="popup-message">
+        <div class="popup__inner">
+            <header class="popup-header">
+                <div class="title">Сообщение</div>
+            </header>
+            
+            <div class="popup-message__main">
+                
+                <div class="popup-message__info clearfix">
+                    <div class="left">
+                        <div class="avatar avatar_off">
+                            <div class="avatar__img"></div>
+                            <div class="avatar__status">offline</div>
+                        </div>
+                        
+                        <div class="popup-message__info-person">
+                            <div class="name">Иванов Сидр Петрович</div>
+                            <div class="status">Владелец</div>
+                            <div class="rating rating_readonly">
+                                <input type="hidden" name="val" value="2.75">
+                                <input type="hidden" name="vote-id" value="3">
+                                <input type="hidden" name="cat_id" value="2">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="right">
+                        <div class="date">
+                            <span>22.09.2013</span><br />
+                            в<span> 22:55</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <article class="popup-message-article">
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                    <p>Здравствуйте! Я насчет квартиры в Одессе на Балковской улице. 
+                        Когда можно прийти посмотреть ее?</p>
+                </article>
+                
+                <form class="popup-message__form" action="action">
+                    <div class="line">
+                        <label for="pmtextarea">Сообщение</label>
+                        <textarea id="pmtextarea" class="textarea"></textarea>
+                    </div>
+                    
+                    <div class="line clearfix">
+                        <a class="btn btn__add-block btn__add-block_mod width130">
+                            <span>Ответить</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- popup end -->
+    
+    <div class="popup popup_add-comments width720" id="registration">
+        <div class="popup__inner">
+            <header class="popup-header">
+                <div class="title">Регистрация</div>
+            </header>
+            
+            <div class="popup-main">
+                <form class="popup-reg__form" action="action">
+                    <div class="line clearfix">
+                        <label class="ml-185">Зарегестрироваться как</label>
+                        <div class="select-custom width152 fl-right">
+                            <select id="toggle-type">
+                                <option value="Агенство" data-type="agency">Агенство</option>
+                                <option value="Риелтор" data-type="rieltor">Риелтор</option>
+                            </select>
+                        </div>
+                        
+                        <div class="notice">максимум 25 объявлений</div>
+                    </div>
+                
+                    <div class="line line_necessary">
+                        <label for="name-1">Имя</label>
+                        <input class="text" type="text" id="name-1" />
+                    </div>
+                    
+                    <div class="line line_necessary">
+                        <label>E-mail</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line">
+                        <label>Телефон</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line">
+                        <label>Город</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line line_agency">
+                        <label>Адрес</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line line_agency">
+                        <label>Сайт</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line clearfix">
+                        <label>Аватар/Логотип</label>
+                        <div class="photo-file">
+                            <input type="file" size="376" class="inputFile" onchange='document.getElementById("fileName-reg").value=this.value' />
+                            <div class="fonTypeFile"></div>
+                            <input type="text" class="inputFileVal" readonly="readonly" id="fileName-reg" />
+                        </div><!-- photo-file end -->
+                    </div>
+                    
+                    <div class="line line_realtor clearfix">
+                        <label>Выбрать агентство</label>
+                        <div class="select-custom width364 fl-left">
+                            <select>
+                                <option value="Без агенства">Без агенства</option>
+                                <option value="Агентсво-1">Агентсво-1</option>
+                                <option value="Агентсво-2">Агентсво-2</option>
+                                <option value="Агентсво-3">Агентсво-3</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="line">
+                        <label for="message-1">Информация</label>
+                        <textarea class="textarea" id="message-1"></textarea>
+                    </div>
+                    
+                    <div class="line line_agency">
+                        <div class="text-controls">Информация о сотруднике:</div>
+                        <label>Ф.И.О.</label>
+                        <input class="text" type="text" />
+                    </div>
+                    
+                    <div class="line line_necessary">
+                        <label>Пароль</label>
+                        <input class="text" type="password" />
+                    </div>
+                    
+                    <div class="line line_necessary">
+                        <label>Повторите пароль</label>
+                        <input class="text" type="password" />
+                    </div>
+                    
+                    <div class="line line_mod">
+                        <label for="captcha">Защитный код</label>
+                        
+                        <input class="text width120" type="text" id="captcha" />
+                        
+                        <div class="captcha">
+                            <img src="images/captcha.jpg" alt="title" />
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="line clearfix">
+                        <div class="condition-controls">
+                            <input type="checkbox" name="cond-label" id="cond-label"/>
+                            <label for="cond-label">Я принимаю условия регистрации <a href="#">(подробнее..)</a></label>
+                        </div>
+                    </div>
+                    
+                    <div class="line width-auto">
+                        <button class="btn btn_controls">
+                            <span>Зарегистрироваться</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- popup end -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.9.1.min.js"><\/script>');
+    </script>
+
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.select.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.custom-radio-checkbox.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.rating-2.0.min.js"></script>
+    <script type="text/javascript" src="js/start.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+/*css document*/
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, header, nav, footer, aside, section, article, hgroup {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;       
+	background: transparent;
+	vertical-align: baseline;
+}
+
+header, nav, footer, aside, section, article, hgroup {
+	display:block;
+}
+
+a{
+	margin:0;
+	padding:0;
+	outline: none;
+	background:transparent;
+	vertical-align:baseline;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+table {
+	border-spacing:0;
+	border-collapse: collapse;
+}
+
+body ul li,
+body ol li{
+	margin: 0;
+	background-image: none;
+}
+
+body ul ul,
+body ol ul,
+body ul ol,
+body ol ol{
+	margin: 0;
+}
+
+td, td img, img {
+	vertical-align: top;
+} 
+
+input, select, button, textarea {
+	margin: 0;
+	font-size: 100%;
+	font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: none;
+}
+
+textarea{
+	overflow:auto;
+	font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+}
+
+input[type="text"], input[type="password"], textarea {
+    padding: 0;
+}
+
+input[type="checkbox"] {
+    margin-left:0;
+	vertical-align: bottom;
+}
+
+input[type="radio"] {
+    margin-left:0;
+	vertical-align: text-bottom;
+}
+
+sub{
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+sup{
+	vertical-align: super;
+	font-size: smaller;
+}
+
+.clearfix:before, .clearfix:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	content: "\0020";
+}
+
+label{
+	font-weight:normal;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	zoom:1;
+}
